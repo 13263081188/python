@@ -1,0 +1,8 @@
+mysql版本8.0.17       and     python版本3.6.7
+问题：mysql用户加密方式改变导致python的api无法连接mysql的api，解决————http://www.manongjc.com/detail/8-bwieltjwtkibnaf.html
+
+
+mysql：
+windows终端下（管理员身份运行），进入mysql安装包的bin文件夹——cd xxxx/xx/bin（或者配置环境变量（不用每次cd）-https://jingyan.baidu.com/article/7908e85cebefd2af491ad24a.html）
+net start mysql 启动mysql
+mysql -u root -p 登陆本机mysql服务器，之后会要求输入密码
