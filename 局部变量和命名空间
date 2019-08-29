@@ -1,0 +1,13 @@
+重要代码示例如下，如果函数内的变量和之前的变量重名，必须加上global
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+Money = 2000
+def AddMoney():
+   # 想改正代码就取消以下注释:
+   global Money
+   Money = Money + 1
+ 
+print(Money)
+AddMoney()
+print(Money)
